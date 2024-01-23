@@ -1,0 +1,76 @@
+{
+  "Header": {
+    "title": "LinkedIn Trending Page",
+    "paragraph": "Gives all the current trends based upon topics, positive reactions, negative reactions"
+  },
+  "About": {
+    "paragraph": "This project wants to serve customers with trending topics across scenarios",
+    "Why": [
+      "Serves top trends",
+      "Serves top posts with positive Reactions",
+      "Serves top posts with negative Reactions",
+      "and much more"
+    ]
+  },
+  "Gallery": [
+    {
+      "title": "Project Title",
+      "largeImage": "img/portfolio/sc1.jpg",
+      "smallImage": "img/portfolio/sc1.jpg"
+    },
+    {
+      "title": "Project Title",
+      "largeImage": "img/portfolio/sc2.jpg",
+      "smallImage": "img/portfolio/sc2.jpg"
+    },
+    {
+      "title": "Project Title",
+      "largeImage": "img/portfolio/sc3.jpg",
+      "smallImage": "img/portfolio/sc3.jpg"
+    }
+  ],
+  "Team": [
+    {
+      "img": "img/team/SC1.jpg",
+      "name": "Kanishk"
+    },
+    {
+      "img": "img/team/SC2.jpg",
+      "name": "Arun"
+    },
+    {
+      "img": "img/team/SC3.jpg",
+      "name": "Jeet"
+    },
+    {
+      "img": "img/team/SC4.jpg",
+      "name": "Harshan"
+    },
+    {
+      "img": "img/team/SC5.jpg",
+      "name": "Nithish"
+    }
+  ],
+  "Features": [
+    {
+      "icon": "fa fa-comments-o",
+      "title": "Get Trending topics",
+      "text": "Gives all the trending Topics across LinkedIn"
+    },
+    {
+      "icon": "fa fa-bullhorn",
+      "title": "Get Most Positive Reactions",
+      "text": "Gives post with most positive Reactions"
+    },
+    {
+      "icon": "fa fa-bullhorn",
+      "title": "Get Most Negative Reactions",
+      "text": "Gives post with most Negative Reactions"
+    },
+    {
+      "icon": "fa fa-comments-o",
+      "title": "Get all Trends for a topic",
+      "text": "Gives the trend for a particular topic"
+    }
+  ]
+}
