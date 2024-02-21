@@ -1,0 +1,1 @@
+export const CUD_FORBIDDEN_MESSAGE = "You do not have permission for any CUD operation on Fast-serve. Please contact ucf team. Slack: #ucf, Email: @ask_ucf";
