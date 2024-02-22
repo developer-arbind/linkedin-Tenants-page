@@ -5,6 +5,7 @@ import {getMessageFromStatus} from "../src/common/ResponseUtils.js";
 import {getCCTCategories, getContentExtractionFields} from "../src/utils/AttributeUtils.jsx";
 import {getCookieVal} from "../src/common/Util";
 import {CUD_FORBIDDEN_MESSAGE} from "../src/utils/Constants.jsx";
+import "../src/css/attribute.scss"
 
 export default class CCTCategory extends React.Component {
   constructor(props) {
@@ -59,8 +60,8 @@ export default class CCTCategory extends React.Component {
 
     if (error) {
       return <div>Error: {error} </div>;
-    } else if (!isLoaded) {
-      return <Spinner />;
+    // } else if (!isLoaded) {
+    //   return <Spinner />;
     } else {
       return (
           <div className="list-container">

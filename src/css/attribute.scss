@@ -1,0 +1,39 @@
+@import "/src/css/_base.scss";
+
+.attr-nav {
+  width: 70%;
+  padding: 11px 0px;
+
+  .attr-menu-items {
+    text-align: left;
+    font-size: 13px;
+    .attr-menu-item {
+      display: inline-block;
+      margin: 6px 12px;
+
+      span {
+        color: #000000;
+        padding-bottom: 14px;
+        border: 0px;
+      }
+
+      span:hover {
+        text-decoration: none;
+        border-bottom: 4px solid #5e9fc3;
+      }
+
+      span.active {
+        border-bottom: 4px solid #0072b2;
+      }
+    }
+  }
+}
+
+.main-panel {
+  position: relative;
+  min-height: 165px;
+  background-color: #ffffff;
+  .spinner {
+    padding: 0px !important;
+  }
+}
