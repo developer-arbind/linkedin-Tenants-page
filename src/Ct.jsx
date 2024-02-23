@@ -9,7 +9,7 @@ import "../src/css/attribute.scss";
 import { SupportedFieldRow } from "./utils/UpdateTenant.jsx";
 
 
-export default class CCTCategory extends React.Component {
+export default class CCTCategory1 extends React.Component {
   constructor(props) {
     super(props);
     this.state = {
@@ -72,13 +72,13 @@ export default class CCTCategory extends React.Component {
     const { error, isLoaded, filteredItems } = this.state;
 
 
-    // } else if (!isLoaded) { //spinner add karlena.
+    // } else if (true === true) {
     //   return <Spinner />;
    
       return (
           <div className="list-container">
             <div className="header-row columns-2">
-              <h1>CCT Tenants</h1>
+              <h1>CCT Categories</h1>
               <div className="action-button">
                 <AddNewSourceButton addSupportedField={this.addSupportedField} fabric={this.props.fabric} />
               </div>

@@ -1,7 +1,7 @@
-@import "artdeco";
-@import "artdeco-button";
+// @import "artdeco";
+// @import "artdeco-button";
 @import "/src/css/constant";
-@import "artdeco-toggle";
+// @import "artdeco-toggle";
 
 body {
   background: $background-color;
@@ -123,7 +123,7 @@ header {
       }
     }
     .nav__menu-dropdown {
-      @include artdeco(Dropdown);
+      // @include artdeco(Dropdown);
       position: absolute;
       z-index: 10;
       top: 100%;
@@ -201,23 +201,23 @@ header {
     }
 
     h1 {
-      @include artdeco(Sans 20px black 90%);
+      // @include artdeco(Sans 20px black 90%);
     }
 
     h2 {
-      @include artdeco(Sans 14px black 90% bold);
+      // @include artdeco(Sans 14px black 90% bold);
       line-height: 20px;
       margin-top: 4px;
       margin-bottom: 2px;
     }
 
     p {
-      @include artdeco(Sans 14px black 90%);
+      // @include artdeco(Sans 14px black 90%);
       line-height: 20px;
     }
 
     a {
-      @include artdeco(Sans 14px black 90%);
+      // @include artdeco(Sans 14px black 90%);
       font-weight: 600;
       color: get-color(blue7);
     }
@@ -230,7 +230,7 @@ header {
   .creation-metadata {
     margin-top: 8px;
     margin-bottom: 12px;
-    @include artdeco(Sans 14px black 60%);
+    // @include artdeco(Sans 14px black 60%);
     span {
       margin-right: 24px;
     }
@@ -441,7 +441,7 @@ header {
     padding: 10px 2px 0px;
   }
   .modal-title {
-    @include artdeco(Sans 20px black 90%);
+    // @include artdeco(Sans 20px black 90%);
     line-height: 28px;
     padding-bottom: 9px;
   }
@@ -450,7 +450,7 @@ header {
     padding: 9px 6px;
     margin: 0 !important;
     label {
-      @include artdeco(Sans 14px black 90%);
+      // @include artdeco(Sans 14px black 90%);
       margin: 0 !important;
       padding-top: 16px;
       line-height: 20px;
