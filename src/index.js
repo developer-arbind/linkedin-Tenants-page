@@ -3,6 +3,7 @@ import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
 import Ct from "./Ct";
+import CCTCategoryMap from './Tenantcategory';
 import {
   createBrowserRouter,
   RouterProvider,
@@ -16,6 +17,10 @@ const router = createBrowserRouter([
   {
     path: "/ct",
     element: <Ct/>
+  },
+  {
+    path: "/map",
+    element:<CCTCategoryMap />
   }
 ]);
 

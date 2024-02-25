@@ -1,12 +1,10 @@
 import React, {useState} from "react";
-import PopUp from "./utils/PopUp.jsx";
-import Spinner from "../src/utils/Spinner";
-import {getMessageFromStatus} from "../src/common/ResponseUtils.js";
+import {getMessageFromStatus} from "./common/ResponseUtils.js";
 import {getCCTCategories, getContentExtractionFields, getCCTTenats} from "../src/utils/AttributeUtils.jsx";
-import {getCookieVal, clearString} from "../src/common/Util";
-import {CUD_FORBIDDEN_MESSAGE} from "../src/utils/Constants.jsx";
+import {getCookieVal, clearString} from "./common/Util";
+import {CUD_FORBIDDEN_MESSAGE} from "./utils/Constants.jsx";
 import "../src/css/attribute.scss";
-import { SupportedFieldRow } from "./utils/UpdateTenant.jsx";
+import { SupportedFieldRow, PopUp } from "./App";
 
 
 export default class CCTCategory1 extends React.Component {
