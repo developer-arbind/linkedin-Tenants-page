@@ -1,3 +1,5 @@
+/*we using mock data for this example */
+
 export const getContentExtractionFields = async function(fabric) {
     const response = await fetch("/cf-tools/fast-serve/api/contentExtractionFields/" + fabric, {
       credentials: "same-origin"
